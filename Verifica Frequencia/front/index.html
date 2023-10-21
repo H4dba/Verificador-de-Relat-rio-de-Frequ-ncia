@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Verifica Frequências</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="container">
+        <h1>Verifica Frequências</h1>
+        
+        <form action="" class="form" method="POST" id="form">
+            <label for="pathInput">Caminho para leitura do arquivo:</label>
+            <input id="pathInput" class="pathInput">
+ 
+            <label for="paginasNaoLer">Paginas que não deseja ler:</label>
+            <input id="paginasNaoLer">
+
+            <label for="pathOutput">Caminho para escrever o arquivo:</label>
+            <input id="pathOutput" class="pathOutput">
+ 
+            <button>Gerar</button>
+        </form>
+
+        <div id="resultado"></div>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
